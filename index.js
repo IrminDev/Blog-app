@@ -5,6 +5,7 @@ const http = require('http')
 
 const server = http.createServer(app)
 
+//Thank you mluukkai for the help with this part c:
 server.listen(config.PORT, () => {
     logger.info(`Server running on port ${config.PORT}`)
 })
